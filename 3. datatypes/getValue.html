@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>getElementById from input</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      input {
+        padding: 8px;
+        font-size: 16px;
+      }
+      button {
+        padding: 8px 12px;
+        font-size: 16px;
+        margin-left: 10px;
+      }
+      #displayArea {
+        margin-top: 20px;
+        font-size: 18px;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Get Value</h1>
+    <input type="text" id="inputField" placeholder="Type something..." />
+    <button onclick="displayText()" id="getValueButton">Get Value</button>
+    <p id="displayArea"></p>
+    <script>
+      function displayText() {
+        let inputValue = document.getElementById("inputField").value;
+        document.getElementById("displayArea").textContent = inputValue;
+      }
+    </script>
+    </script>
+  </body>
+</html>

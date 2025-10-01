@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test js in header</title>
+    <!-- <script>
+      const message = document.getElementById("message");
+      console.log(message.textContent);
+    </script> -->
+  </head>
+  <body>
+    <h1 id="message">Welcome to the Introduction Page</h1>
+    <p>
+      This page includes a script in the header that logs a message to the
+      console.
+    </p>
+    <button onclick="alert('Button clicked!')">Click Me</button>
+    <!-- <script src="app.js"></script> -->
+     <script>
+        const message = document.getElementById("message");
+        const message1 = document.getElementById("message").innerHTML = "Hello, World!";
+        console.log(message);
+        console.log(message1);
+     </script>
+  </body>
+</html>

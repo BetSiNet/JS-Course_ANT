@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Logical Operators</h1>
+    <p>
+      Logical operators are used to combine two or more conditions. The result
+      of a logical operation is a boolean value: either <code>true</code> or
+      <code>false</code>.
+    </p>
+    <h2>Types of Logical Operators</h2>
+    <ul>
+      <li>Logical AND: <code>&&</code></li>
+      <li>Logical OR: <code>||</code></li>
+      <li>Logical NOT: <code>!</code></li>
+    </ul>
+    <h2>Examples</h2>
+    <pre><code>
+let a = true;
+let b = false;
+
+console.log(a && b); // Logical AND
+console.log(a || b); // Logical OR
+console.log(!a); // Logical NOT
+</code></pre>
+    <script>
+      let a = true;
+      let b = false;
+
+      console.log("Logical AND: " + (a && b)); // Logical AND
+      console.log("Logical OR: " + (a || b)); // Logical OR
+      console.log("Logical NOT: " + !a); // Logical NOT
+
+      console.log(!true); // false
+      console.log(!false); // true
+      console.log(!(30 == 30)); // false
+      console.log(!(30 != 30)); // true
+    </script>
+  </body>
+</html>

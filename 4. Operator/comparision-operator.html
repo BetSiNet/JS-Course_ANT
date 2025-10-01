@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Comparison Operators</h1>
+    <p>
+      Comparison operators are used to compare two values. The result of a comparison is a boolean value: either <code>true</code> or <code>false</code>.
+    </p>
+    <h2>Types of Comparison Operators</h2>
+    <ul>
+      <li>Equal to: <code>==</code></li>
+      <li>Not equal to: <code>!=</code></li>
+      <li>Strict equal to: <code>===</code></li>
+      <li>Strict not equal to: <code>!==</code></li>
+      <li>Greater than: <code>&gt;</code></li>
+      <li>Less than: <code>&lt;</code></li>
+      <li>Greater than or equal to: <code>&gt;=</code></li>
+      <li>Less than or equal to: <code>&lt;=</code></li>
+    </ul>
+    <h2>Examples</h2>
+    <pre><code>
+let a = 10;
+let b = 5;
+
+console.log(a == b); // Equal to
+console.log(a != b); // Not equal to
+console.log(a === b); // Strict equal to
+console.log(a !== b); // Strict not equal to
+console.log(a &gt; b); // Greater than
+console.log(a &lt; b); // Less than
+console.log(a &gt;= b); // Greater than or equal to
+console.log(a &lt;= b); // Less than or equal to
+</code></pre>
+    <script>
+        let a = 10;
+        let b = 5;
+
+        console.log("Equal to: " + (a == b)); // Equal to
+        console.log("Not equal to: " + (a != b)); // Not equal to
+        console.log("Strict equal to: " + (a === b)); // Strict equal to
+        console.log("Strict not equal to: " + (a !== b)); // Strict not equal to
+        console.log("Greater than: " + (a > b)); // Greater than
+        console.log("Less than: " + (a < b)); // Less than
+        console.log("Greater than or equal to: " + (a >= b)); // Greater than or equal to
+        console.log("Less than or equal to: " + (a <= b)); // Less than or equal to
+
+        console.log(4 == '4'); // true
+        console.log(4 === '4'); // false
+        console.log(4 != '4'); // false
+        console.log(4 !== '4'); // true
+
+        console.log(10 > 5); // true
+        console.log(10 < 5); // false
+        console.log(10 >= 10); // true
+        console.log(10 <= 5); // false
+        
+    </script>
+</body>
+</html>
